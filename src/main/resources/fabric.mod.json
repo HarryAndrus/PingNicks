@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "teamnicknames",
+  "version": "${version}",
+  "name": "Team Nicknames",
+  "description": "Client-side nicknames for players. Replaces player names with nicknames anywhere text is drawn on your screen: chat, pings (e.g. CosmicPings), nametags, tab list, scoreboard.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.teamnicks.TeamNicknames"]
+  },
+  "mixins": ["teamnicknames.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "format": "{nick}",
+  "pingsOnly": true,
+  "alsoInChat": false,
+  "pingMods": ["cosmicpings", "cosmic", "minecoin"],
+  "debug": false,
+  "nicknames": {
+    "girlscoutalt1": "beltuser1",
+    "girlscoutalt2": "beltuser2"
+  }
+}
